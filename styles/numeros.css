@@ -1,0 +1,30 @@
+.numeros {
+    display: flex;
+    justify-content: center;
+    gap: 3.2em;
+}
+
+.numeros__divisao {
+    width: 28em;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2em;
+}
+
+.numeros__divisao__numero {
+    color: var(--cor-destaque);
+    font-size: 6rem;
+    font-weight: 600;
+}
+
+.numeros__divisao__titulo {
+    color: var(--cor-titulo);
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.numeros__divisao__paragrafo {
+    color: var(--cor-paragrafo);
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}

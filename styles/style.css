@@ -1,0 +1,28 @@
+@import url(reset.css);
+@import url(header.css);
+@import url(banner.css);
+@import url(numeros.css);
+@import url(vagas.css);
+@import url(colaboradores.css);
+@import url(rodape.css);
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+    --cor-principal: #FFFFFF;
+    --cor-destaque: #8e2424;
+    --cor-paragrafo: #667085;
+    --cor-titulo: #101828;
+    --cor-secundaria: #8e24240e;
+    --cor-terciaria: #98A2B3;
+    --cor-background-rodape: #F9FAFB;
+
+    --fonte-principal: "Inter", sans-serif;
+}
+
+html {
+    font-size: 65%;
+}
+
+body {
+    font-family: var(--fonte-principal);
+}

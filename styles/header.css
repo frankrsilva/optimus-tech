@@ -1,0 +1,44 @@
+#cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3em 17%;
+}
+
+.cabecalho__nav {
+    margin-left: 10em;
+    margin-right: auto;
+}
+
+.cabecalho__nav__lista {
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+}
+
+.cabecalho__nav__lista__item__link {
+    font-size: 1.6rem;
+    color: var(--cor-paragrafo);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.login__lista {
+    display: flex;
+    gap: 2em;
+}
+
+.login__lista__item__link {
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: var(--cor-paragrafo);
+    font-weight: 500;
+}
+
+#login__cadastro {
+    background-color: var(--cor-destaque);
+    color: var(--cor-principal);
+    padding: 1em 1.8em;
+    border-radius: 8px;
+    font-weight: 500;
+}
